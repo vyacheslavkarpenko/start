@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+// app.js
+import { add } from './math.js';
+
+console.log(add(16, 26)); // 42
 
 class App extends Component {
   render() {
