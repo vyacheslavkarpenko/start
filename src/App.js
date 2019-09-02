@@ -9,7 +9,7 @@ import Second from './components/Second';
 import FirstClass from './components/FirstClass';
 import View from './components/View';
 */
-import Post from './components/Post';
+
 import articles from './fixtures/articles'
 import ArticlesList from './components/ArticlesList'
 
@@ -32,7 +32,7 @@ class App extends Component {
         <View />
   */} 
       <div className="post">
-        <ArticlesList articles = {articles} />
+        <ArticlesList articles={articles} />
       </div>
     </div>
     );

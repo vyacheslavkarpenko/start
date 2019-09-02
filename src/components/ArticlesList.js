@@ -3,7 +3,7 @@ import Post from './Post'
 
 function ArticlesList({articles}) {
     const articlesElements = articles.map(article => 
-        <li><Post article = {article} /></li>
+        <li key={article.id}><Post article={article} /></li>
         )
     return(
         <ul>
